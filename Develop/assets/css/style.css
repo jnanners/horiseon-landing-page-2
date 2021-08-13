@@ -47,8 +47,11 @@ a {
     text-decoration: none;
 }
 
+
+/* changed line height to 1.5 to better match mock up */
 p {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .hero img {
