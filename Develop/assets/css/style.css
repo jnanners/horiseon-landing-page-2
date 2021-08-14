@@ -47,7 +47,6 @@ a {
     text-decoration: none;
 }
 
-
 /* changed line height to 1.5 to better match mock up */
 p {
     font-size: 16px;
@@ -76,6 +75,26 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* changed class titles to match new classes */
+/* consoloidated several styles for the same class to prevent repeating code */
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.service img {
+    max-height: 200px;
+}
+
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -109,25 +128,6 @@ p {
 }
 
 
-/* changed class titles to match new classes */
-/* consoloidated several styles for the same class to prevent repeating code */
-.service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.service img {
-    max-height: 200px;
-}
-
-.service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* changed .footer to footer bc we are footer tag instead of div with footer class */
 footer {
